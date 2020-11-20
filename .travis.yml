@@ -6,8 +6,8 @@ cache: npm
 install:
   - npm install
 
-#script:
-  #- npm run build
+script:
+  - npm run build
 
 deploy:
   provider: pages
