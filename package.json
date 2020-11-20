@@ -1,7 +1,6 @@
 {
   "name": "react-travis-ci-gh-pages-demo",
   "version": "0.1.0",
-  "homepage": "https://github.com/harta123/tahta.git"
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -18,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
     "predeploy": "npm run build"
-    "deploy": "gh-pages -d build"
+    "deploy": "main -d build"
   },
   "eslintConfig": {
     "extends": [
